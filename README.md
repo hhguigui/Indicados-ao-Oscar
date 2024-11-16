@@ -106,7 +106,7 @@ Bonus: Denzel Washington e Jamie Foxx já concorreram ao Oscar no mesmo ano?
 
 Resposta: eles nunca concorreram ao Oscar no mesmo ano.
 
-SELECT `nome_do_indicado, ano_cerimonia FROM indicados_ao_oscar WHERE nome_do_indicado like "%Denzel Washington%" AND nome_do_indicado like "%Jamie Foxx%";`
+`SELECT nome_do_indicado, ano_cerimonia FROM indicados_ao_oscar WHERE nome_do_indicado like "%Denzel Washington%" AND nome_do_indicado like "%Jamie Foxx%";`
 
 
 
